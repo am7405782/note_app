@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'NoteLayOut.dart';
+import 'Screen/NoteLayOut.dart';
 
 void main() {
   runApp(const NoteApp());
@@ -15,6 +15,8 @@ class NoteApp extends StatelessWidget {
       title: "notesAdd",
       theme: ThemeData(brightness: Brightness.dark),
       home: const NoteLayOut(),
+      debugShowCheckedModeBanner: false,
+      
      
     );
   }
